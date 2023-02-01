@@ -1,0 +1,23 @@
+uuid: fadd5ca7-dd4e-4723-9a62-802b62ec2bfa
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hide_title
+    - node.type.movie
+id: node.movie.field_hide_title
+field_name: field_hide_title
+entity_type: node
+bundle: movie
+label: 'Skjul titel'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Tilsluttet
+  off_label: Afbrudt
+field_type: boolean

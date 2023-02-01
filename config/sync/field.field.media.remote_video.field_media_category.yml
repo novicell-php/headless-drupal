@@ -1,0 +1,31 @@
+uuid: e960786d-3b5b-4a6b-8c2a-4032d378fd36
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_category
+    - media.type.remote_video
+    - taxonomy.vocabulary.media_categories
+_core:
+  default_config_hash: 524EtdJar73kc1Wy3YU5UvfajFFHYNNlbz6AIp2nYWw
+id: media.remote_video.field_media_category
+field_name: field_media_category
+entity_type: media
+bundle: remote_video
+label: 'Media kategori'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      media_categories: media_categories
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

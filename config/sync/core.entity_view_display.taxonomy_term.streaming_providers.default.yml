@@ -1,0 +1,44 @@
+uuid: 9aa5c0b0-6636-4529-8e15-b4459cdd2bf1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.streaming_providers.field_enable_streaming_provider
+    - field.field.taxonomy_term.streaming_providers.field_streaming_provider_logo
+    - taxonomy.vocabulary.streaming_providers
+  module:
+    - text
+id: taxonomy_term.streaming_providers.default
+targetEntityType: taxonomy_term
+bundle: streaming_providers
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_enable_streaming_provider:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_streaming_provider_logo:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

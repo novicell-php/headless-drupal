@@ -1,0 +1,12 @@
+uuid: cb09b757-bdbd-41c3-a462-3cc978ea97b8
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: Mz9qWr1kUYK0mjRAGDsr5XS6PvtZ24en_7ndt-pyWe4
+id: node.teaser
+label: Smagsprøve
+targetEntityType: node
+cache: true

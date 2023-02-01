@@ -1,0 +1,10 @@
+uuid: 47efd27a-1f09-4709-81e6-3a2ccf56c0e7
+langcode: en
+status: true
+dependencies: {  }
+id: season
+label: Season
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

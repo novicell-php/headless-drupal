@@ -1,0 +1,21 @@
+uuid: 35ad8212-6e94-4b2b-9c9d-97d1b0c6c9a6
+langcode: da
+status: true
+dependencies:
+  config:
+    - block_content.type.video
+    - field.storage.block_content.field_video_subline
+_core:
+  default_config_hash: _uBfD7SngZ2qDjV7yx_ksL4xVrxQHyZ_Bj0XPFKFXxo
+id: block_content.video.field_video_subline
+field_name: field_video_subline
+entity_type: block_content
+bundle: video
+label: Subline
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 19fd7fb5-26dd-468c-baac-386a5a0a3030
+langcode: da
+status: true
+dependencies:
+  config:
+    - block_content.type.article
+    - field.field.block_content.article.field_article
+    - transform_api.entity_transform_mode.block_content.width_50
+id: block_content.article.width_50
+targetEntityType: block_content
+bundle: article
+mode: width_50
+content:
+  field_article:
+    type: entity_transform
+    weight: '0'
+    region: content
+    label: omit
+    settings:
+      transform_mode: teaser_width_50
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,11 @@
+uuid: bdf0b808-a22b-4ba7-b484-d4b4d549ec4a
+langcode: da
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.movie_role
+id: taxonomy_term.movie_role
+target_entity_type_id: taxonomy_term
+target_bundle: movie_role
+default_langcode: site_default
+language_alterable: false

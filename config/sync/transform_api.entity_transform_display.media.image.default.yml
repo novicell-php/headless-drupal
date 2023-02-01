@@ -1,0 +1,33 @@
+uuid: 2ea5b571-d078-4c37-8ea8-f0eacc9a8955
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.media.image.field_copyright
+    - field.field.media.image.field_media_category
+    - field.field.media.image.field_media_image
+    - media.type.image
+    - responsive_image.styles.isg_image_16_9_full_width
+id: media.image.default
+targetEntityType: media
+bundle: image
+mode: default
+content:
+  field_copyright:
+    type: value
+    weight: '1'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_media_image:
+    type: responsive_image
+    weight: '0'
+    region: content
+    label: omit
+    settings:
+      responsive_image_style: isg_image_16_9_full_width
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  field_media_category: true

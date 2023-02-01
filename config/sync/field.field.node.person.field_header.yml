@@ -1,0 +1,49 @@
+uuid: 773287e3-740d-4144-bc31-d9380503eb8a
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_header
+    - node.type.person
+    - paragraphs.paragraphs_type.basic_hero
+  module:
+    - entity_reference_revisions
+id: node.person.field_header
+field_name: field_header
+entity_type: node
+bundle: person
+label: Overskrift
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      basic_hero: basic_hero
+    negate: 0
+    target_bundles_drag_drop:
+      accordion_item:
+        weight: 8
+        enabled: false
+      basic_hero:
+        weight: 9
+        enabled: true
+      cast_member:
+        weight: 10
+        enabled: false
+      episode:
+        weight: 11
+        enabled: false
+      inline_hero:
+        weight: 12
+        enabled: false
+      season:
+        weight: 13
+        enabled: false
+      streaming_providers:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

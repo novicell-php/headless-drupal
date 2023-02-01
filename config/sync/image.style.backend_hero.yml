@@ -1,0 +1,18 @@
+uuid: 7880d483-74a2-4d0e-83d1-c4197660f5ab
+langcode: da
+status: true
+dependencies:
+  module:
+    - focal_point
+name: backend_hero
+label: 'Backend Hero'
+effects:
+  695a6e11-555d-4c8a-a932-060a1faa62c7:
+    uuid: 695a6e11-555d-4c8a-a932-060a1faa62c7
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1900
+      height: 500
+      crop_type: focal_point
+pipeline: __default__

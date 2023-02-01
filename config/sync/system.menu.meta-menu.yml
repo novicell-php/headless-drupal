@@ -1,0 +1,10 @@
+uuid: ef3375a0-994d-4025-a0d5-53e54fe07825
+langcode: da
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 01-dxdRyFFfCRWD3obrFSumkOsC0QZeYRitrPuswk_A
+id: meta-menu
+label: 'Meta menu'
+description: 'Used eg. at top of website'
+locked: false

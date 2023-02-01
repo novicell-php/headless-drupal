@@ -1,0 +1,20 @@
+uuid: 048fcb1f-f2ae-4c11-a40d-6267724f7457
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_distributor
+field_name: field_distributor
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

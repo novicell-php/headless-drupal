@@ -1,0 +1,21 @@
+uuid: eabda8cd-8973-4de4-b657-544c80074fa5
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.inline_hero
+_core:
+  default_config_hash: JuDuB-gM1nNlukI8KKTllokgluIi_bBtsPcDxouUX7w
+id: paragraph.inline_hero.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: inline_hero
+label: Titel
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

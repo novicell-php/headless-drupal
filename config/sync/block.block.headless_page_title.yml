@@ -1,0 +1,20 @@
+uuid: 47934280-7366-4b61-af0f-72dcc6683260
+langcode: da
+status: true
+dependencies:
+  theme:
+    - headless
+_core:
+  default_config_hash: Z3nlZUh2mSJP3apMrJWt-duS-aLyP79rcfu_0wpPmDs
+id: headless_page_title
+theme: headless
+region: header
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: Sidetitel
+  label_display: '0'
+  provider: core
+visibility: {  }

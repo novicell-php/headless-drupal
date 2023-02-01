@@ -1,0 +1,36 @@
+uuid: 0c6f6a7e-634c-494b-92e7-a714cabd4625
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.streaming_providers.field_provider
+    - field.field.paragraph.streaming_providers.field_provider_link
+    - paragraphs.paragraphs_type.streaming_providers
+  module:
+    - link
+id: paragraph.streaming_providers.default
+targetEntityType: paragraph
+bundle: streaming_providers
+mode: default
+content:
+  field_provider:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_provider_link:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

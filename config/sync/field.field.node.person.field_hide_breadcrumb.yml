@@ -1,0 +1,23 @@
+uuid: 909990ea-f93d-4c17-82c1-e04a5c867744
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_hide_breadcrumb
+    - node.type.person
+id: node.person.field_hide_breadcrumb
+field_name: field_hide_breadcrumb
+entity_type: node
+bundle: person
+label: 'Skjul brødkrumme'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Tilsluttet
+  off_label: Afbrudt
+field_type: boolean

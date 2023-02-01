@@ -1,0 +1,12 @@
+uuid: 5eaf8321-4fb4-4f2e-b19d-3b9b1ce49014
+langcode: da
+status: true
+dependencies:
+  module:
+    - config_split
+_core:
+  default_config_hash: 1v9HNp_mdoSPAgEQDrG66XQmPMN1YDOiu_TW1OkwyLo
+id: config_split.token
+label: Symbol
+targetEntityType: config_split
+cache: true

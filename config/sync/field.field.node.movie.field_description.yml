@@ -1,0 +1,19 @@
+uuid: 1ab4290a-0472-4943-9b1f-b863b6543e87
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.movie
+id: node.movie.field_description
+field_name: field_description
+entity_type: node
+bundle: movie
+label: Beskrivelse
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

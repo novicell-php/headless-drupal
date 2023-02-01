@@ -1,0 +1,10 @@
+uuid: 98a43d86-a114-4b83-9c19-20a9b46f795e
+langcode: da
+status: true
+dependencies:
+  module:
+    - comment
+id: comment.teaser
+label: Teaser
+targetEntityType: comment
+cache: true

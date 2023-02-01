@@ -1,0 +1,35 @@
+uuid: 0c045de1-db40-453e-81e6-51cf2c9574f6
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_birthday
+    - field.field.user.user.field_name
+    - field.field.user.user.field_newsletter
+    - field.field.user.user.user_picture
+  module:
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_birthday:
+    type: datetime_default
+    weight: '2'
+    region: content
+    label: omit
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+  field_name:
+    type: value
+    weight: '0'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_newsletter: true
+  user_picture: true

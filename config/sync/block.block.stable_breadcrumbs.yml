@@ -1,0 +1,22 @@
+uuid: b4988403-6a68-4f0d-ab0b-df3b41bd5229
+langcode: da
+status: true
+dependencies:
+  module:
+    - premium_core
+  theme:
+    - stable
+_core:
+  default_config_hash: 7NTC9Map8oPy2yKiCLfomsf4_BIw4yiQleVI0TkjCFE
+id: stable_breadcrumbs
+theme: stable
+region: breadcrumb
+weight: 0
+provider: null
+plugin: premium_breadcrumb_block
+settings:
+  id: premium_breadcrumb_block
+  label: Brødkrummer
+  label_display: '0'
+  provider: premium_core
+visibility: {  }

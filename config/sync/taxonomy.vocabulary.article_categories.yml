@@ -1,0 +1,10 @@
+uuid: 70df9471-3c73-4484-bb53-f7dc3467599d
+langcode: da
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: TDDunTZsznBk4f9FJJphqZTlP6UOwfhqgY7SZqwSdNY
+name: 'Artikel kategorier'
+vid: article_categories
+description: 'Bruges til at gruppere relaterede artikler.'
+weight: 0

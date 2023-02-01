@@ -1,0 +1,30 @@
+uuid: 74f32e0f-3194-429e-9c47-f7bfd34b37e4
+langcode: da
+status: true
+dependencies:
+  config:
+    - block_content.type.article_form
+    - field.field.block_content.article_form.field_articles_form
+  module:
+    - entity_overview
+_core:
+  default_config_hash: QMupeSH_eog7-CRsfIGaI-BZxxHS0wA6osMlQ4G2Pzo
+id: block_content.article_form.default
+targetEntityType: block_content
+bundle: article_form
+mode: default
+content:
+  field_articles_form:
+    type: overview_filter_widget
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  translation:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  info: true
+  langcode: true

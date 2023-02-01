@@ -1,0 +1,8 @@
+uuid: 330f5708-3de6-4b37-9e03-6899401f4505
+langcode: da
+status: true
+dependencies: {  }
+name: Tags
+vid: tags
+description: 'Tags til at relatere indhold til hinanden'
+weight: 0

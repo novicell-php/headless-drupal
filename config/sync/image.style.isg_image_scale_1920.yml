@@ -1,0 +1,16 @@
+uuid: 70c411dd-b664-414a-991e-ce3b044317f0
+langcode: da
+status: true
+dependencies: {  }
+name: isg_image_scale_1920
+label: 'Image scale (1920)'
+effects:
+  75b2be4f-18f2-415b-956b-c74a3ec1dfc0:
+    uuid: 75b2be4f-18f2-415b-956b-c74a3ec1dfc0
+    id: image_scale
+    weight: 1
+    data:
+      width: 1920
+      height: null
+      upscale: true
+pipeline: __default__

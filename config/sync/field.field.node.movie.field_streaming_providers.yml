@@ -1,0 +1,37 @@
+uuid: f7788424-a32a-427a-8a29-bbed524a9c62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_streaming_providers
+    - node.type.movie
+    - paragraphs.paragraphs_type.streaming_providers
+  module:
+    - entity_reference_revisions
+id: node.movie.field_streaming_providers
+field_name: field_streaming_providers
+entity_type: node
+bundle: movie
+label: 'Streaming providers'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      streaming_providers: streaming_providers
+    negate: 0
+    target_bundles_drag_drop:
+      accordion_item:
+        weight: 4
+        enabled: false
+      streaming_providers:
+        weight: 5
+        enabled: true
+      usp_item:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

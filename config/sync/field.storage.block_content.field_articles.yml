@@ -1,0 +1,23 @@
+uuid: 6aecb7b6-41a4-4c19-a68b-fa9eb5978dff
+langcode: da
+status: true
+dependencies:
+  module:
+    - block_content
+    - entity_overview
+_core:
+  default_config_hash: E2fytLr1f-sbdffp2AN3xntUgKhAT07g0Eti7i8CRjM
+id: block_content.field_articles
+field_name: field_articles
+entity_type: block_content
+type: overview_filter
+settings:
+  allow_facets: 0
+  overview: node_article
+module: entity_overview
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,38 @@
+uuid: 81f5c0af-390d-42ac-b127-3a58f0a438a5
+langcode: da
+status: true
+dependencies:
+  config:
+    - block_content.type.inline_navigation
+    - field.field.block_content.inline_navigation.field_inline_navigation_mode
+    - field.field.block_content.inline_navigation.field_inline_navigation_pages
+    - field.field.block_content.inline_navigation.field_inline_navigation_parent
+_core:
+  default_config_hash: hly8KfRsZT1g_bX4nEKa69saNK4t-KelWCbpc3yCOQo
+id: block_content.inline_navigation.default
+targetEntityType: block_content
+bundle: inline_navigation
+mode: default
+content:
+  field_inline_navigation_pages:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_inline_navigation_parent:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_inline_navigation_mode: true
+  langcode: true
+  search_api_excerpt: true

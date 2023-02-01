@@ -1,0 +1,21 @@
+uuid: 97882750-b127-4ab7-9994-9636d3f74748
+langcode: da
+status: true
+dependencies:
+  config:
+    - block_content.type.article
+    - field.field.block_content.article.field_article
+id: block_content.article.default
+targetEntityType: block_content
+bundle: article
+mode: default
+content:
+  field_article:
+    type: entity_transform
+    weight: '0'
+    region: content
+    label: omit
+    settings:
+      transform_mode: teaser
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 557d87d6-5c30-4f53-90b8-14bc8ed4dcb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_premiere
+    - node.type.series
+  module:
+    - datetime
+id: node.series.field_premiere
+field_name: field_premiere
+entity_type: node
+bundle: series
+label: 'Premiere date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

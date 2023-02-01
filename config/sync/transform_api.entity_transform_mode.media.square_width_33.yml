@@ -1,0 +1,10 @@
+uuid: a2fc27db-2b58-486d-8f81-82d05fd96e05
+langcode: da
+status: true
+dependencies:
+  module:
+    - media
+id: media.square_width_33
+label: 'Square Width 33'
+targetEntityType: media
+cache: true

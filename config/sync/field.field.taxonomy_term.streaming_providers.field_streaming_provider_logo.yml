@@ -1,0 +1,28 @@
+uuid: d0f59b40-1d3b-4241-8c17-319750283a87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_streaming_provider_logo
+    - media.type.image
+    - taxonomy.vocabulary.streaming_providers
+id: taxonomy_term.streaming_providers.field_streaming_provider_logo
+field_name: field_streaming_provider_logo
+entity_type: taxonomy_term
+bundle: streaming_providers
+label: Logo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

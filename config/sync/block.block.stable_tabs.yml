@@ -1,0 +1,22 @@
+uuid: baff320f-1b1e-4c08-89e1-313767302722
+langcode: da
+status: true
+dependencies:
+  theme:
+    - stable
+_core:
+  default_config_hash: MfQaCWAaaRSX8x58i4S7CFU5ba2A_vIsRIZbD2Wcs8c
+id: stable_tabs
+theme: stable
+region: sidebar_first
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Faner
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

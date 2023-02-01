@@ -1,0 +1,83 @@
+uuid: c9a8320e-19ba-457b-9dd5-2cbbae4ba509
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.node.article.field_article_type
+    - field.field.node.article.field_description
+    - field.field.node.article.field_header
+    - field.field.node.article.field_hide_breadcrumb
+    - field.field.node.article.field_hide_title
+    - field.field.node.article.field_list_date
+    - field.field.node.article.field_list_media
+    - field.field.node.article.field_tags
+    - field.field.node.article.field_universe
+    - field.field.node.article.layout_builder__layout
+    - node.type.article
+id: node.article.default
+targetEntityType: node
+bundle: article
+mode: default
+content:
+  field_article_type:
+    type: entity_reference_links
+    weight: '6'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_description:
+    type: value
+    weight: '1'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_header:
+    type: entity_transform
+    weight: '4'
+    region: content
+    label: omit
+    settings:
+      transform_mode: default
+    third_party_settings: {  }
+  field_hide_breadcrumb:
+    type: boolean
+    weight: '2'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_hide_title:
+    type: boolean
+    weight: '3'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_list_date:
+    type: datetime_simple
+    weight: '7'
+    region: content
+    label: omit
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+  field_universe:
+    type: value
+    weight: '0'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  layout_builder__layout:
+    type: layout_builder
+    weight: '5'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_list_media: true
+  field_tags: true

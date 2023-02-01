@@ -1,0 +1,59 @@
+uuid: 87bce703-97d2-428c-9d79-b239acfb15b8
+langcode: da
+status: true
+dependencies:
+  config:
+    - image.style.isg_focal_point_1358_764
+    - image.style.isg_focal_point_213_120
+    - image.style.isg_focal_point_289_163
+    - image.style.isg_focal_point_346_195
+    - image.style.isg_focal_point_392_221
+    - image.style.isg_focal_point_679_382
+    - image.style.isg_focal_point_784_441
+  module:
+    - premium_headless_helper
+id: isg_image_16_9_width_33
+label: 'Image 16 by 9 - Width 33%'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_focal_point_392_221
+    breakpoint_id: premium_headless_helper.xxs
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_focal_point_784_441
+    breakpoint_id: premium_headless_helper.xxs
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_focal_point_679_382
+    breakpoint_id: premium_headless_helper.xs
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_focal_point_1358_764
+    breakpoint_id: premium_headless_helper.xs
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_focal_point_213_120
+    breakpoint_id: premium_headless_helper.sm
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_focal_point_346_195
+    breakpoint_id: premium_headless_helper.md
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_focal_point_289_163
+    breakpoint_id: premium_headless_helper.lg
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_focal_point_289_163
+    breakpoint_id: premium_headless_helper.xl
+    multiplier: 1x
+breakpoint_group: premium_headless_helper
+fallback_image_style: isg_focal_point_289_163

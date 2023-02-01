@@ -1,0 +1,43 @@
+uuid: d39b1eed-1529-4313-8efa-3e3617a7c3d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_seasons
+    - node.type.series
+    - paragraphs.paragraphs_type.season
+  module:
+    - entity_reference_revisions
+id: node.series.field_seasons
+field_name: field_seasons
+entity_type: node
+bundle: series
+label: Seasons
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      season: season
+    negate: 0
+    target_bundles_drag_drop:
+      accordion_item:
+        weight: 6
+        enabled: false
+      episode:
+        weight: 7
+        enabled: false
+      season:
+        weight: 8
+        enabled: true
+      streaming_providers:
+        weight: 9
+        enabled: false
+      usp_item:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

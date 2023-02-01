@@ -1,0 +1,19 @@
+uuid: ded65c37-050b-4ca1-914c-c509daddba15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imdb_link
+    - node.type.series
+id: node.series.field_imdb_link
+field_name: field_imdb_link
+entity_type: node
+bundle: series
+label: 'IMDB link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

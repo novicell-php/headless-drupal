@@ -1,0 +1,178 @@
+uuid: e838f53b-79d8-4b5f-aa5d-955c6b274a9e
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.node.movie.field_cast_members
+    - field.field.node.movie.field_censorship_info
+    - field.field.node.movie.field_censorship_link
+    - field.field.node.movie.field_description
+    - field.field.node.movie.field_distributor
+    - field.field.node.movie.field_genre
+    - field.field.node.movie.field_header
+    - field.field.node.movie.field_hide_breadcrumb
+    - field.field.node.movie.field_hide_title
+    - field.field.node.movie.field_imdb
+    - field.field.node.movie.field_kino_rating_count
+    - field.field.node.movie.field_kino_rating_score
+    - field.field.node.movie.field_list_media
+    - field.field.node.movie.field_media_ratings_count
+    - field.field.node.movie.field_media_ratings_score
+    - field.field.node.movie.field_meta_tags
+    - field.field.node.movie.field_original_title
+    - field.field.node.movie.field_playing_time
+    - field.field.node.movie.field_poster
+    - field.field.node.movie.field_premiere
+    - field.field.node.movie.field_presale_start
+    - field.field.node.movie.field_streaming_premiere
+    - field.field.node.movie.field_streaming_providers
+    - field.field.node.movie.field_tags
+    - node.type.movie
+  module:
+    - datetime
+    - entity_reference_revisions
+    - kino_content
+    - link
+    - user
+id: node.movie.default
+targetEntityType: node
+bundle: movie
+mode: default
+content:
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
+  field_cast_members:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_censorship_info:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 110
+    region: content
+  field_censorship_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 109
+    region: content
+  field_description:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_distributor:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 112
+    region: content
+  field_header:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_hide_breadcrumb:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_hide_title:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_imdb:
+    type: imdb_id
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 113
+    region: content
+  field_list_media:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_presale_start:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 111
+    region: content
+  field_streaming_premiere:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_genre: true
+  field_kino_rating_count: true
+  field_kino_rating_score: true
+  field_media_ratings_count: true
+  field_media_ratings_score: true
+  field_meta_tags: true
+  field_original_title: true
+  field_playing_time: true
+  field_poster: true
+  field_premiere: true
+  field_streaming_providers: true
+  langcode: true
+  search_api_excerpt: true

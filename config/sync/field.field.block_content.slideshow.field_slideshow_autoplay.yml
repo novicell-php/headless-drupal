@@ -1,0 +1,25 @@
+uuid: 2c53f659-a135-4b2c-9d20-796d2f4efeb3
+langcode: da
+status: true
+dependencies:
+  config:
+    - block_content.type.slideshow
+    - field.storage.block_content.field_slideshow_autoplay
+_core:
+  default_config_hash: RtRek5zeaoREES9U1nRjld4w2EkJd4w8qrV-a-LSY1I
+id: block_content.slideshow.field_slideshow_autoplay
+field_name: field_slideshow_autoplay
+entity_type: block_content
+bundle: slideshow
+label: Autoplay
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Tilsluttet
+  off_label: Afbrudt
+field_type: boolean

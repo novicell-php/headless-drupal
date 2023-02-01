@@ -1,0 +1,21 @@
+uuid: d066d5e7-ffad-48d5-b56f-38ce33342f52
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_streaming_premiere
+    - node.type.movie
+  module:
+    - datetime
+id: node.movie.field_streaming_premiere
+field_name: field_streaming_premiere
+entity_type: node
+bundle: movie
+label: 'Streaming premiere'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

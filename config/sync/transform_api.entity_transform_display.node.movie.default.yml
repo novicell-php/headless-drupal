@@ -1,0 +1,198 @@
+uuid: 97da798c-1bb7-4781-a19e-d4b681b07f94
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.node.movie.field_cast_members
+    - field.field.node.movie.field_censorship_info
+    - field.field.node.movie.field_censorship_link
+    - field.field.node.movie.field_description
+    - field.field.node.movie.field_distributor
+    - field.field.node.movie.field_genre
+    - field.field.node.movie.field_header
+    - field.field.node.movie.field_hide_breadcrumb
+    - field.field.node.movie.field_hide_title
+    - field.field.node.movie.field_imdb
+    - field.field.node.movie.field_kino_rating_count
+    - field.field.node.movie.field_kino_rating_score
+    - field.field.node.movie.field_list_media
+    - field.field.node.movie.field_media_ratings_count
+    - field.field.node.movie.field_media_ratings_score
+    - field.field.node.movie.field_meta_tags
+    - field.field.node.movie.field_original_title
+    - field.field.node.movie.field_playing_time
+    - field.field.node.movie.field_poster
+    - field.field.node.movie.field_premiere
+    - field.field.node.movie.field_presale_start
+    - field.field.node.movie.field_streaming_premiere
+    - field.field.node.movie.field_streaming_providers
+    - field.field.node.movie.field_tags
+    - node.type.movie
+  module:
+    - kino_content
+id: node.movie.default
+targetEntityType: node
+bundle: movie
+mode: default
+content:
+  field_cast_members:
+    type: entity_transform
+    weight: '10'
+    region: content
+    label: omit
+    settings:
+      transform_mode: default
+    third_party_settings: {  }
+  field_censorship_info:
+    type: value
+    weight: '12'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_censorship_link:
+    type: link
+    weight: '13'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_distributor:
+    type: entity_reference_links
+    weight: '9'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_genre:
+    type: entity_reference_links
+    weight: '8'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_header:
+    type: entity_transform
+    weight: '4'
+    region: content
+    label: omit
+    settings:
+      transform_mode: default
+    third_party_settings: {  }
+  field_hide_breadcrumb:
+    type: boolean
+    weight: '2'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_hide_title:
+    type: boolean
+    weight: '3'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_imdb:
+    type: imdb_id
+    weight: '5'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_kino_rating_count:
+    type: value
+    weight: '16'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_kino_rating_score:
+    type: value
+    weight: '17'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_media_ratings_count:
+    type: value
+    weight: '14'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_media_ratings_score:
+    type: value
+    weight: '15'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_original_title:
+    type: value
+    weight: '0'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_playing_time:
+    type: value
+    weight: '1'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_poster:
+    type: entity_transform
+    weight: '6'
+    region: content
+    label: omit
+    settings:
+      transform_mode: default
+    third_party_settings: {  }
+  field_premiere:
+    type: datetime_simple
+    weight: '18'
+    region: content
+    label: omit
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+  field_presale_start:
+    type: datetime_simple
+    weight: '19'
+    region: content
+    label: omit
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+  field_streaming_premiere:
+    type: datetime_simple
+    weight: '20'
+    region: content
+    label: omit
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+  field_streaming_providers:
+    type: entity_transform
+    weight: '11'
+    region: content
+    label: omit
+    settings:
+      transform_mode: default
+    third_party_settings: {  }
+  field_tags:
+    type: entity_reference_links
+    weight: '7'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_description: true
+  field_list_media: true
+  field_meta_tags: true

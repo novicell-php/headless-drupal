@@ -1,0 +1,12 @@
+uuid: a6605d58-5b8e-4e27-8b66-73fb5183359f
+langcode: da
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: IY16mjI5vHCamcPd56sFdpCovlVStmpwovGWXUfYCIM
+id: basic_hero
+label: Pageheader
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

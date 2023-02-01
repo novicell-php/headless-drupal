@@ -1,0 +1,21 @@
+uuid: 6ea09bec-1f03-44e6-8a92-cbd284a87514
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_birthday
+    - node.type.person
+  module:
+    - datetime
+id: node.person.field_birthday
+field_name: field_birthday
+entity_type: node
+bundle: person
+label: Fødselsdag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

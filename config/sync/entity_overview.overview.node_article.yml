@@ -1,0 +1,20 @@
+uuid: 424b0281-d037-4714-bbc3-8a41347267f6
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - node
+id: node_article
+label: Article
+entity_bundles:
+  node:
+    - article
+fields:
+  owner: entity_autocomplete
+  field_article_type: checkboxes
+  field_tags: checkboxes
+engine_id: entity_query
+sort_field: field_list_date
+show_total: results

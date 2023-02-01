@@ -1,0 +1,19 @@
+uuid: 71ad6321-56ee-4608-83b6-a02948452bd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_related_tvshows_header
+    - taxonomy.vocabulary.genre
+id: taxonomy_term.genre.field_related_tvshows_header
+field_name: field_related_tvshows_header
+entity_type: taxonomy_term
+bundle: genre
+label: 'Related tv-shows header'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 9c7070f4-512e-42ed-9d21-fa61927d5334
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_meta_tags
+    - node.type.movie
+  module:
+    - metatag
+id: node.movie.field_meta_tags
+field_name: field_meta_tags
+entity_type: node
+bundle: movie
+label: 'Meta data'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

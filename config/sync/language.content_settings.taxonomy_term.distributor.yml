@@ -1,0 +1,11 @@
+uuid: 07894242-91a6-496f-a3d8-54eac93fed96
+langcode: da
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.distributor
+id: taxonomy_term.distributor
+target_entity_type_id: taxonomy_term
+target_bundle: distributor
+default_langcode: site_default
+language_alterable: false

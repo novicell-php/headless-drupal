@@ -1,0 +1,58 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.2_column_lg_
+    - image.style.2_column_md_
+    - image.style.2_column_sm_
+    - image.style.2_column_xs_
+    - image.style.2_column_xsx2_
+    - image.style.2_column_xxs_
+    - image.style.2_column_xxsx2_
+  module:
+    - premium_headless_helper
+id: 2_column
+label: '2 column'
+image_style_mappings:
+  -
+    breakpoint_id: premium_headless_helper.xl
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 2_column_lg_
+  -
+    breakpoint_id: premium_headless_helper.lg
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 2_column_lg_
+  -
+    breakpoint_id: premium_headless_helper.md
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 2_column_md_
+  -
+    breakpoint_id: premium_headless_helper.sm
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 2_column_sm_
+  -
+    breakpoint_id: premium_headless_helper.xs
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 2_column_xs_
+  -
+    breakpoint_id: premium_headless_helper.xs
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: 2_column_xsx2_
+  -
+    breakpoint_id: premium_headless_helper.xxs
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 2_column_xxs_
+  -
+    breakpoint_id: premium_headless_helper.xxs
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: 2_column_xxsx2_
+breakpoint_group: premium_headless_helper
+fallback_image_style: 2_column_xxs_

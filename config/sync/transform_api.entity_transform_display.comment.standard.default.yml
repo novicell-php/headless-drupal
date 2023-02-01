@@ -1,0 +1,20 @@
+uuid: aa7cf24b-b321-43b9-ad5c-387e9e320009
+langcode: da
+status: true
+dependencies:
+  config:
+    - comment.type.standard
+    - field.field.comment.standard.comment_body
+id: comment.standard.default
+targetEntityType: comment
+bundle: standard
+mode: default
+content:
+  comment_body:
+    type: text_format
+    weight: '0'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,23 @@
+uuid: 5c445214-27ab-467d-ac01-85165d646999
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_provider_link
+    - paragraphs.paragraphs_type.streaming_providers
+  module:
+    - link
+id: paragraph.streaming_providers.field_provider_link
+field_name: field_provider_link
+entity_type: paragraph
+bundle: streaming_providers
+label: Link
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

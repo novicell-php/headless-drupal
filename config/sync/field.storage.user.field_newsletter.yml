@@ -1,0 +1,18 @@
+uuid: f3c1854e-b580-4b1d-8670-88a42cc357e7
+langcode: da
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_newsletter
+field_name: field_newsletter
+entity_type: user
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

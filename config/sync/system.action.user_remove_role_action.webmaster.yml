@@ -1,0 +1,14 @@
+uuid: e6009cb6-0c05-40ed-8ea0-967734af0e71
+langcode: da
+status: true
+dependencies:
+  config:
+    - user.role.webmaster
+  module:
+    - user
+id: user_remove_role_action.webmaster
+label: 'Remove the Webmaster role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: webmaster

@@ -1,0 +1,10 @@
+uuid: 2dbe4427-a434-42a2-999a-215ef88d160d
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+id: node.teaser_width_50
+label: 'Teaser Width 50'
+targetEntityType: node
+cache: true

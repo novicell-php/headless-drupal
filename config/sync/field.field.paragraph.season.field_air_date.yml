@@ -1,0 +1,21 @@
+uuid: d2aacf39-a982-4c47-b9eb-2f8a4e37a460
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_air_date
+    - paragraphs.paragraphs_type.season
+  module:
+    - datetime
+id: paragraph.season.field_air_date
+field_name: field_air_date
+entity_type: paragraph
+bundle: season
+label: 'Air date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

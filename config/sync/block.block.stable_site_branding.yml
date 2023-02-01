@@ -1,0 +1,25 @@
+uuid: d367fb45-dba4-44b1-861f-7eab4449ffc6
+langcode: da
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: m1VqMwrckc1LnbYkh2CNk0wPmybLga8JajGNpThBIIw
+id: stable_site_branding
+theme: stable
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

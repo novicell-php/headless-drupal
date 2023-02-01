@@ -1,0 +1,103 @@
+uuid: 179bc469-333c-42d6-9d62-d11afb1595c9
+langcode: da
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.article.field_article_type
+    - field.field.node.article.field_description
+    - field.field.node.article.field_header
+    - field.field.node.article.field_hide_breadcrumb
+    - field.field.node.article.field_hide_title
+    - field.field.node.article.field_list_date
+    - field.field.node.article.field_list_media
+    - field.field.node.article.field_tags
+    - field.field.node.article.field_universe
+    - field.field.node.article.layout_builder__layout
+    - node.type.article
+  module:
+    - datetime
+    - layout_builder
+    - layout_builder_restrictions
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+  layout_builder_restrictions:
+    allowed_block_categories:
+      - Bruger
+      - 'Chaos Tools'
+      - 'Content fields'
+      - 'Custom block types'
+      - 'Custom blocks'
+      - Devel
+      - Forms
+      - Help
+      - 'Inline blocks'
+      - 'Lists (Views)'
+      - Menus
+      - Premium
+      - System
+      - Webform
+      - core
+    entity_view_mode_restriction:
+      allowed_layouts:
+        - layout_onecol
+        - layout_twocol_section
+        - layout_threecol_section
+      denylisted_blocks:
+        'Custom block types':
+          - basic
+        'Inline blocks':
+          - 'inline_block:basic'
+      allowlisted_blocks:
+        'Chaos Tools': {  }
+        'Content fields':
+          - 'field_block:node:article:field_comments'
+        Forms: {  }
+        Help: {  }
+        'Lists (Views)': {  }
+        Menus: {  }
+        Premium: {  }
+        System: {  }
+        Webform: {  }
+        core: {  }
+      restricted_categories:
+        - Bruger
+        - 'Custom blocks'
+        - Devel
+_core:
+  default_config_hash: 7OjcNSYQFZAAnCZrnyJg7utryjfmQoO33tkSTWehRNI
+id: node.article.full
+targetEntityType: node
+bundle: article
+mode: full
+content:
+  field_list_date:
+    type: datetime_time_ago
+    label: hidden
+    settings:
+      future_format: '@interval hence'
+      past_format: '@interval ago'
+      granularity: 2
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_article_type: true
+  field_description: true
+  field_header: true
+  field_hide_breadcrumb: true
+  field_hide_title: true
+  field_list_media: true
+  field_tags: true
+  field_universe: true
+  langcode: true
+  layout_builder__layout: true
+  search_api_excerpt: true

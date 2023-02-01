@@ -1,0 +1,11 @@
+uuid: 4589dbe7-396d-4d76-8dd6-2e8f155fc0f4
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.movie
+id: node.movie
+target_entity_type_id: node
+target_bundle: movie
+default_langcode: site_default
+language_alterable: false

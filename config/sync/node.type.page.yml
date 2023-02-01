@@ -1,0 +1,20 @@
+uuid: 29490e41-8466-42d2-821e-13a9c9212a35
+langcode: da
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: F9lS2X3VyFwsFON4Qr-Y-pD4n9Cam3YniCuMkJGdNvM
+name: 'Simpel side'
+type: page
+description: 'Brug <em>simple sider</em> til dit statiske indhold, som f.eks. en "om os"-side.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

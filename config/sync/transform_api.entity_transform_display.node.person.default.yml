@@ -1,0 +1,61 @@
+uuid: 666d8f76-2acc-49fe-b822-f9f24bde4c1b
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.node.person.field_birthday
+    - field.field.node.person.field_description
+    - field.field.node.person.field_header
+    - field.field.node.person.field_hide_breadcrumb
+    - field.field.node.person.field_hide_title
+    - field.field.node.person.field_list_media
+    - field.field.node.person.field_meta_tags
+    - field.field.node.person.field_tags
+    - node.type.person
+id: node.person.default
+targetEntityType: node
+bundle: person
+mode: default
+content:
+  field_birthday:
+    type: datetime_simple
+    weight: '3'
+    region: content
+    label: omit
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+  field_header:
+    type: entity_transform
+    weight: '4'
+    region: content
+    label: omit
+    settings:
+      transform_mode: default
+    third_party_settings: {  }
+  field_hide_breadcrumb:
+    type: boolean
+    weight: '0'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_hide_title:
+    type: boolean
+    weight: '1'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_tags:
+    type: entity_reference_links
+    weight: '2'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_description: true
+  field_list_media: true
+  field_meta_tags: true

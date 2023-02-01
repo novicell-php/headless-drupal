@@ -1,0 +1,75 @@
+uuid: d8cb1855-434d-45fc-9727-421216c1ca82
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.movie.field_cast_members
+    - field.field.node.movie.field_censorship_info
+    - field.field.node.movie.field_censorship_link
+    - field.field.node.movie.field_description
+    - field.field.node.movie.field_distributor
+    - field.field.node.movie.field_genre
+    - field.field.node.movie.field_header
+    - field.field.node.movie.field_hide_breadcrumb
+    - field.field.node.movie.field_hide_title
+    - field.field.node.movie.field_imdb
+    - field.field.node.movie.field_kino_rating_count
+    - field.field.node.movie.field_kino_rating_score
+    - field.field.node.movie.field_list_media
+    - field.field.node.movie.field_media_ratings_count
+    - field.field.node.movie.field_media_ratings_score
+    - field.field.node.movie.field_meta_tags
+    - field.field.node.movie.field_original_title
+    - field.field.node.movie.field_playing_time
+    - field.field.node.movie.field_poster
+    - field.field.node.movie.field_premiere
+    - field.field.node.movie.field_presale_start
+    - field.field.node.movie.field_streaming_premiere
+    - field.field.node.movie.field_streaming_providers
+    - field.field.node.movie.field_tags
+    - node.type.movie
+  module:
+    - user
+id: node.movie.teaser
+targetEntityType: node
+bundle: movie
+mode: teaser
+content:
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_cast_members: true
+  field_censorship_info: true
+  field_censorship_link: true
+  field_description: true
+  field_distributor: true
+  field_genre: true
+  field_header: true
+  field_hide_breadcrumb: true
+  field_hide_title: true
+  field_imdb: true
+  field_kino_rating_count: true
+  field_kino_rating_score: true
+  field_list_media: true
+  field_media_ratings_count: true
+  field_media_ratings_score: true
+  field_meta_tags: true
+  field_original_title: true
+  field_playing_time: true
+  field_poster: true
+  field_premiere: true
+  field_presale_start: true
+  field_streaming_premiere: true
+  field_streaming_providers: true
+  field_tags: true
+  langcode: true
+  search_api_excerpt: true

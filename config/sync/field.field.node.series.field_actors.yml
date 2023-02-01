@@ -1,0 +1,28 @@
+uuid: 0bd15d21-7661-47da-b2c4-7e7a8765baac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_actors
+    - node.type.series
+    - node.type.person
+id: node.series.field_actors
+field_name: field_actors
+entity_type: node
+bundle: series
+label: Actors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      person: person
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

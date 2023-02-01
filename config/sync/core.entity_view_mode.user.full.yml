@@ -1,0 +1,12 @@
+uuid: 3c0b0317-b9a3-4f5c-8a74-84534d1f938c
+langcode: da
+status: false
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: mQIF_foYjmnVSr9MpcD4CTaJE_FpO1AyDd_DskztGhM
+id: user.full
+label: Brugerkonto
+targetEntityType: user
+cache: true

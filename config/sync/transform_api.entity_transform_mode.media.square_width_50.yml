@@ -1,0 +1,10 @@
+uuid: 7e9967a3-0ec6-4ed3-8bef-a25a97b5a957
+langcode: da
+status: true
+dependencies:
+  module:
+    - media
+id: media.square_width_50
+label: 'Square Width 50'
+targetEntityType: media
+cache: true

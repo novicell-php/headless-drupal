@@ -1,0 +1,22 @@
+uuid: c9dbeeb2-6ac4-4b42-a458-37edd8940e1c
+langcode: da
+status: true
+dependencies:
+  module:
+    - premium_tools
+  theme:
+    - stable
+_core:
+  default_config_hash: dRzB9mCf3zySrBQKapHusCUGMg_s9T5R-TeCH15WtG0
+id: stable_languageswitcher
+theme: stable
+region: header
+weight: 0
+provider: null
+plugin: 'improved_language_block:language_interface'
+settings:
+  id: 'improved_language_block:language_interface'
+  label: Sprogvælger
+  label_display: '0'
+  provider: premium_tools
+visibility: {  }

@@ -1,0 +1,10 @@
+uuid: dfc5c128-63d6-47ca-8f61-501c43c8d0f3
+langcode: da
+status: true
+dependencies:
+  module:
+    - media
+id: media.16_by_9_width_50
+label: '16 by 9 Width 50'
+targetEntityType: media
+cache: true

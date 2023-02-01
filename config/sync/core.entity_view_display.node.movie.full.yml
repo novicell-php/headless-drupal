@@ -1,0 +1,84 @@
+uuid: d4b47e8f-dc90-46ea-9c28-057975ba6c68
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.movie.field_cast_members
+    - field.field.node.movie.field_censorship_info
+    - field.field.node.movie.field_censorship_link
+    - field.field.node.movie.field_description
+    - field.field.node.movie.field_distributor
+    - field.field.node.movie.field_genre
+    - field.field.node.movie.field_header
+    - field.field.node.movie.field_hide_breadcrumb
+    - field.field.node.movie.field_hide_title
+    - field.field.node.movie.field_imdb
+    - field.field.node.movie.field_kino_rating_count
+    - field.field.node.movie.field_kino_rating_score
+    - field.field.node.movie.field_list_media
+    - field.field.node.movie.field_media_ratings_count
+    - field.field.node.movie.field_media_ratings_score
+    - field.field.node.movie.field_meta_tags
+    - field.field.node.movie.field_original_title
+    - field.field.node.movie.field_playing_time
+    - field.field.node.movie.field_poster
+    - field.field.node.movie.field_premiere
+    - field.field.node.movie.field_presale_start
+    - field.field.node.movie.field_streaming_premiere
+    - field.field.node.movie.field_streaming_providers
+    - field.field.node.movie.field_tags
+    - node.type.movie
+  module:
+    - user
+id: node.movie.full
+targetEntityType: node
+bundle: movie
+mode: full
+content:
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_genre:
+    type: entity_reference_entity_id
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_original_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_cast_members: true
+  field_censorship_info: true
+  field_censorship_link: true
+  field_description: true
+  field_distributor: true
+  field_header: true
+  field_hide_breadcrumb: true
+  field_hide_title: true
+  field_imdb: true
+  field_kino_rating_count: true
+  field_kino_rating_score: true
+  field_list_media: true
+  field_media_ratings_count: true
+  field_media_ratings_score: true
+  field_meta_tags: true
+  field_playing_time: true
+  field_poster: true
+  field_premiere: true
+  field_presale_start: true
+  field_streaming_premiere: true
+  field_streaming_providers: true
+  field_tags: true
+  langcode: true
+  links: true
+  search_api_excerpt: true

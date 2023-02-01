@@ -1,0 +1,20 @@
+uuid: 1258f936-45d2-48a0-b8f4-98fa034cd68f
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_premiere
+field_name: field_premiere
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

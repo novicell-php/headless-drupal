@@ -1,0 +1,8 @@
+uuid: 7720f6b5-d129-4a0f-a8eb-c0a33db05cb8
+langcode: da
+status: true
+dependencies: {  }
+name: 'Movie role'
+vid: movie_role
+description: 'Hvilke roller man kan have i produktionen af en film.'
+weight: 0

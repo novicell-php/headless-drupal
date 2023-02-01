@@ -1,0 +1,37 @@
+uuid: 98486e64-6b69-4df4-816c-875ca3cae71b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.genre.field_external_id
+    - field.field.taxonomy_term.genre.field_related_movies_header
+    - field.field.taxonomy_term.genre.field_related_tvshows_header
+    - taxonomy.vocabulary.genre
+  module:
+    - text
+id: taxonomy_term.genre.default
+targetEntityType: taxonomy_term
+bundle: genre
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_external_id:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_related_movies_header: true
+  field_related_tvshows_header: true
+  langcode: true
+  search_api_excerpt: true

@@ -1,0 +1,11 @@
+kino_api.user:
+  path: '/transform/user/register'
+  defaults:
+    _title: 'Transforms entity into JSON response.'
+    _controller: '\Drupal\kino_api\Controller\UserController::register'
+  methods: [POST]
+  options:
+    _auth: ['basic_auth', 'cookie', 'oauth2']
+  requirements:
+    _access: 'TRUE'
+    _format: json

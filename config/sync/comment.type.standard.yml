@@ -1,0 +1,8 @@
+uuid: 257ba1f6-3695-4890-a841-bdcd57ee4c79
+langcode: da
+status: true
+dependencies: {  }
+id: standard
+label: Standard
+target_entity_type_id: node
+description: ''

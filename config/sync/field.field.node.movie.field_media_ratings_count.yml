@@ -1,0 +1,23 @@
+uuid: 7a856647-7577-467a-aec3-d1257c424522
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media_ratings_count
+    - node.type.movie
+id: node.movie.field_media_ratings_count
+field_name: field_media_ratings_count
+entity_type: node
+bundle: movie
+label: 'Media ratings count'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

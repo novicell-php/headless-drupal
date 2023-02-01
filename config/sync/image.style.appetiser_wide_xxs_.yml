@@ -1,0 +1,20 @@
+uuid: 30f16aa7-c50c-474f-993f-9ffd64f28d4a
+langcode: da
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: 9JsS1KlwmUkHfVADdxCFfih4L-SIjGf3MNqa3F3xAOQ
+name: appetiser_wide_xxs_
+label: 'Appetiser wide (XXS)'
+effects:
+  a68033bc-f10b-4773-9163-4f25f1719a7c:
+    uuid: a68033bc-f10b-4773-9163-4f25f1719a7c
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 270
+      crop_type: focal_point
+pipeline: __default__

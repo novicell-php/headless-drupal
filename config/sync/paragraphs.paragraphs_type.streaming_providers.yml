@@ -1,0 +1,10 @@
+uuid: 6b1c0d7b-96bc-4090-bd79-f6da7ccab4d9
+langcode: en
+status: true
+dependencies: {  }
+id: streaming_providers
+label: 'Streaming Providers'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

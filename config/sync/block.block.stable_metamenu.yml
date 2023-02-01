@@ -1,0 +1,27 @@
+uuid: 82df28e7-e6a2-49bc-986f-c5a3a20c01d1
+langcode: da
+status: true
+dependencies:
+  config:
+    - system.menu.meta-menu
+  module:
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: JOwg8iR8RS9uNVBFFvs4Y3IScCfTeAvrDx4E97_-eLI
+id: stable_metamenu
+theme: stable
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:meta-menu'
+settings:
+  id: 'system_menu_block:meta-menu'
+  label: 'Meta menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

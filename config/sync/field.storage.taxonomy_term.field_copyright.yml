@@ -1,0 +1,21 @@
+uuid: 0cf3d4bd-a3b4-4c69-9fd1-696f86e35a54
+langcode: da
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_copyright
+field_name: field_copyright
+entity_type: taxonomy_term
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 284c0ad8-f4f5-4262-9a7f-9e4ae678b3ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kino_rating_score
+    - node.type.movie
+id: node.movie.field_kino_rating_score
+field_name: field_kino_rating_score
+entity_type: node
+bundle: movie
+label: 'Kino rating score'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

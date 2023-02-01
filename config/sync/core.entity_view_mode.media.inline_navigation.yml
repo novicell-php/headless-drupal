@@ -1,0 +1,12 @@
+uuid: 9b0893f9-d0dc-4c7e-8b8a-7c90ab21f3bc
+langcode: da
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: LeGYBtjmWSZuOzIANn5KX3UCP7EoLyNmheGPehBEiWg
+id: media.inline_navigation
+label: 'Inline navigation'
+targetEntityType: media
+cache: true

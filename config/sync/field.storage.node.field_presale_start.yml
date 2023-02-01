@@ -1,0 +1,20 @@
+uuid: 50bf02aa-7e6a-49ac-bb62-7476f813f54c
+langcode: da
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+id: node.field_presale_start
+field_name: field_presale_start
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

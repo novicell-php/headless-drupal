@@ -1,0 +1,21 @@
+uuid: 1bb228d2-762c-40cb-b4d4-9bbd16c80dd4
+langcode: da
+status: true
+dependencies:
+  module:
+    - layout_builder
+    - node
+_core:
+  default_config_hash: MuyyRQmARSvKCy6eO89PlxjC5gisVnDA7GBnqL3lbSA
+id: node.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+type: layout_section
+settings: {  }
+module: layout_builder
+locked: true
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

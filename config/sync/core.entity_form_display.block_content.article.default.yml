@@ -1,0 +1,31 @@
+uuid: b94afaef-b929-4f45-b56b-326de273c5dd
+langcode: da
+status: true
+dependencies:
+  config:
+    - block_content.type.article
+    - field.field.block_content.article.field_article
+id: block_content.article.default
+targetEntityType: block_content
+bundle: article
+mode: default
+content:
+  field_article:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden:
+  info: true

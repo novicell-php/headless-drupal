@@ -1,0 +1,55 @@
+uuid: 06d941e2-ae54-478a-9fa0-aa72cce6af88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.season.field_air_date
+    - field.field.paragraph.season.field_episodes
+    - field.field.paragraph.season.field_season_headline
+    - field.field.paragraph.season.field_season_number
+    - paragraphs.paragraphs_type.season
+  module:
+    - datetime
+    - entity_reference_revisions
+id: paragraph.season.default
+targetEntityType: paragraph
+bundle: season
+mode: default
+content:
+  field_air_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_episodes:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_season_headline:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_season_number:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

@@ -1,0 +1,61 @@
+uuid: d1efbd1b-e9a3-4cf7-8ce9-d49282c2bd0e
+langcode: da
+status: true
+dependencies:
+  config:
+    - image.style.inline_navigation_1_1_lg_
+    - image.style.inline_navigation_1_1_md_
+    - image.style.inline_navigation_1_1_sm_
+    - image.style.inline_navigation_1_1_xs_
+    - image.style.inline_navigation_1_1_xsx2_
+    - image.style.inline_navigation_1_1_xxs_
+    - image.style.inline_navigation_1_1_xxsx2_
+  module:
+    - premium_headless_helper
+_core:
+  default_config_hash: 7-JFVXHkJpZZO2ae7HcWmzSJlICMpfMJctOIOfACll8
+id: inline_navigation_1_1
+label: 'Inline navigation (1:1)'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: inline_navigation_1_1_lg_
+    breakpoint_id: premium_headless_helper.xl
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: inline_navigation_1_1_lg_
+    breakpoint_id: premium_headless_helper.lg
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: inline_navigation_1_1_md_
+    breakpoint_id: premium_headless_helper.md
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: inline_navigation_1_1_sm_
+    breakpoint_id: premium_headless_helper.sm
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: inline_navigation_1_1_xs_
+    breakpoint_id: premium_headless_helper.xs
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: inline_navigation_1_1_xsx2_
+    breakpoint_id: premium_headless_helper.xs
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: inline_navigation_1_1_xxs_
+    breakpoint_id: premium_headless_helper.xxs
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: inline_navigation_1_1_xxsx2_
+    breakpoint_id: premium_headless_helper.xxs
+    multiplier: 2x
+breakpoint_group: premium_headless_helper
+fallback_image_style: inline_navigation_1_1_xxs_

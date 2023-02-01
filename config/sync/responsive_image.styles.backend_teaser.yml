@@ -1,0 +1,11 @@
+uuid: d06a779e-86e6-4224-ad70-87622c5de093
+langcode: da
+status: true
+dependencies:
+  config:
+    - image.style.backend_teaser
+id: backend_teaser
+label: 'Backend Teaser'
+image_style_mappings: {  }
+breakpoint_group: responsive_image
+fallback_image_style: backend_teaser

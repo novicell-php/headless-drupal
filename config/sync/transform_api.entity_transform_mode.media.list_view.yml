@@ -1,0 +1,10 @@
+uuid: 4b043b05-7503-49df-9e96-7060fc7975af
+langcode: da
+status: true
+dependencies:
+  module:
+    - media
+id: media.list_view
+label: 'List view'
+targetEntityType: media
+cache: true

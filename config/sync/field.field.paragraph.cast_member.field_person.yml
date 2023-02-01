@@ -1,0 +1,29 @@
+uuid: e4369144-af02-49bf-bb56-770b60f1ade0
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_person
+    - node.type.person
+    - paragraphs.paragraphs_type.cast_member
+id: paragraph.cast_member.field_person
+field_name: field_person
+entity_type: paragraph
+bundle: cast_member
+label: Personer
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      person: person
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

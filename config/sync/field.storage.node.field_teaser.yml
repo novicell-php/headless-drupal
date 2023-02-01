@@ -1,0 +1,24 @@
+uuid: fa2ecff5-8e7e-4b65-994e-6b5ef145da83
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+  enforced:
+    module:
+      - dds_content
+_core:
+  default_config_hash: HiNBPQ7PRSky_DYA4AblPPt_0BhDsKH4weT_EHa6FHk
+id: node.field_teaser
+field_name: field_teaser
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

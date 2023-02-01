@@ -1,0 +1,33 @@
+uuid: 8c09e43b-014a-414b-b803-c32f24e72f82
+langcode: da
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.appetiser
+    - field.field.media.image.field_copyright
+    - field.field.media.image.field_media_category
+    - field.field.media.image.field_media_image
+    - media.type.image
+  module:
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+_core:
+  default_config_hash: ICQgC7i7jOGPwoP6a5ZqFqmd5RDNknTPsa3dB1ntHRY
+id: media.image.appetiser
+targetEntityType: media
+bundle: image
+mode: appetiser
+content: {  }
+hidden:
+  created: true
+  field_copyright: true
+  field_media_category: true
+  field_media_image: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

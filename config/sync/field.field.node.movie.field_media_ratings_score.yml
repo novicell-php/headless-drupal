@@ -1,0 +1,23 @@
+uuid: 08e96889-c31e-4665-afe7-79756186f856
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media_ratings_score
+    - node.type.movie
+id: node.movie.field_media_ratings_score
+field_name: field_media_ratings_score
+entity_type: node
+bundle: movie
+label: 'Media ratings score'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

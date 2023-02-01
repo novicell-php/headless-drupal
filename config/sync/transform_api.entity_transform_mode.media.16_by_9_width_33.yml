@@ -1,0 +1,10 @@
+uuid: 72ffe5d2-3f6e-4461-94ed-f7cdba34e69c
+langcode: da
+status: true
+dependencies:
+  module:
+    - media
+id: media.16_by_9_width_33
+label: '16 by 9 Width 33'
+targetEntityType: media
+cache: true

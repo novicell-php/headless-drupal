@@ -1,0 +1,10 @@
+uuid: e351c8f5-3c4b-4463-a601-1a2582a6671d
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+id: node.teaser_full_width
+label: 'Teaser Full Width'
+targetEntityType: node
+cache: true

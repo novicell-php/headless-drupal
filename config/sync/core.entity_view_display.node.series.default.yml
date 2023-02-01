@@ -1,0 +1,65 @@
+uuid: 62ce9cff-70a8-4144-b2ec-564df97c99b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.series.body
+    - field.field.node.series.field_actors
+    - field.field.node.series.field_copyright
+    - field.field.node.series.field_director
+    - field.field.node.series.field_gallery
+    - field.field.node.series.field_genre
+    - field.field.node.series.field_imdb_id
+    - field.field.node.series.field_imdb_link
+    - field.field.node.series.field_meta_tags
+    - field.field.node.series.field_original_title
+    - field.field.node.series.field_poster
+    - field.field.node.series.field_premiere
+    - field.field.node.series.field_seasons
+    - field.field.node.series.field_streaming_providers
+    - field.field.node.series.field_summary
+    - field.field.node.series.field_teaser
+    - field.field.node.series.field_youtube_trailer
+    - node.type.series
+  module:
+    - user
+id: node.series.default
+targetEntityType: node
+bundle: series
+mode: default
+content:
+  field_copyright:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_imdb_id:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  body: true
+  field_actors: true
+  field_director: true
+  field_gallery: true
+  field_genre: true
+  field_imdb_link: true
+  field_meta_tags: true
+  field_original_title: true
+  field_poster: true
+  field_premiere: true
+  field_seasons: true
+  field_streaming_providers: true
+  field_summary: true
+  field_teaser: true
+  field_youtube_trailer: true
+  langcode: true
+  links: true
+  search_api_excerpt: true

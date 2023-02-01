@@ -1,0 +1,23 @@
+uuid: 6d1cc543-28b9-4e96-a037-be68952f4aee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_episode_number
+    - paragraphs.paragraphs_type.episode
+id: paragraph.episode.field_episode_number
+field_name: field_episode_number
+entity_type: paragraph
+bundle: episode
+label: 'Episode number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

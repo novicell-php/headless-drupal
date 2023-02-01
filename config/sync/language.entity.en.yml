@@ -1,0 +1,11 @@
+uuid: 48383b4d-f522-4a5a-8a92-016c13f717cd
+langcode: da
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lBXDpdDPXQtrfTJQhr6MjRJJEEyYSoRJ0acdvHLsWeA
+id: en
+label: Engelsk
+direction: ltr
+weight: 0
+locked: false

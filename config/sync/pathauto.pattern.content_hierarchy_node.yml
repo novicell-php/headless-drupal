@@ -1,0 +1,22 @@
+uuid: 9f31569a-afcf-48e3-8315-b4de7a3eaf87
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+id: content_hierarchy_node
+label: 'Indholdshierarki mønster'
+type: 'canonical_entities:node'
+pattern: '[node:ancestors-joined-path]/[node:title]'
+selection_criteria:
+  95e6289d-ecbe-4398-9d3c-2a61c8215e41:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 95e6289d-ecbe-4398-9d3c-2a61c8215e41
+    context_mapping:
+      node: node
+    bundles:
+      page: page
+selection_logic: and
+weight: 0
+relationships: {  }

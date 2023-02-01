@@ -1,0 +1,29 @@
+uuid: 474f47db-135f-42aa-ab0f-3dc98d3f96b7
+langcode: da
+status: true
+dependencies:
+  config:
+    - comment.type.standard
+    - field.field.comment.standard.comment_body
+  module:
+    - text
+id: comment.standard.default
+targetEntityType: comment
+bundle: standard
+mode: default
+content:
+  comment_body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

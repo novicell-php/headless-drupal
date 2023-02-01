@@ -1,0 +1,12 @@
+uuid: 283f1b7c-e19e-4ed6-b699-939a08b9e104
+langcode: da
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: L0Jyfw4hx54VsaMVfhp2XO8GC5oZ-ZvonVJNc4ed9I4
+id: media.1_column
+label: '1 column'
+targetEntityType: media
+cache: true

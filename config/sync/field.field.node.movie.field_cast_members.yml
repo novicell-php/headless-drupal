@@ -1,0 +1,49 @@
+uuid: 6f466763-07ad-49cf-aee2-51aec0df9564
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cast_members
+    - node.type.movie
+    - paragraphs.paragraphs_type.cast_member
+  module:
+    - entity_reference_revisions
+id: node.movie.field_cast_members
+field_name: field_cast_members
+entity_type: node
+bundle: movie
+label: Medvirkende
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      cast_member: cast_member
+    negate: 0
+    target_bundles_drag_drop:
+      accordion_item:
+        weight: 8
+        enabled: false
+      basic_hero:
+        weight: 9
+        enabled: false
+      cast_member:
+        weight: 10
+        enabled: true
+      episode:
+        weight: 11
+        enabled: false
+      inline_hero:
+        weight: 12
+        enabled: false
+      season:
+        weight: 13
+        enabled: false
+      streaming_providers:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

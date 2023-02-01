@@ -1,0 +1,34 @@
+uuid: ed2c8bc2-b4ab-4fdf-9542-fab477cb2be4
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.media.image.field_copyright
+    - field.field.media.image.field_media_category
+    - field.field.media.image.field_media_image
+    - media.type.image
+    - responsive_image.styles.isg_square_width_33
+    - transform_api.entity_transform_mode.media.square_width_33
+id: media.image.square_width_33
+targetEntityType: media
+bundle: image
+mode: square_width_33
+content:
+  field_copyright:
+    type: value
+    weight: '1'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_media_image:
+    type: responsive_image
+    weight: '0'
+    region: content
+    label: omit
+    settings:
+      responsive_image_style: isg_square_width_33
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  field_media_category: true

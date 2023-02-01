@@ -1,0 +1,10 @@
+uuid: edb885c9-052c-49ce-95be-9ecb80400381
+langcode: da
+status: true
+dependencies:
+  module:
+    - media
+id: media.appetizer
+label: Appetizer
+targetEntityType: media
+cache: true

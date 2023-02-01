@@ -1,0 +1,19 @@
+uuid: 79c40e70-7261-40cb-be44-57a187156c22
+langcode: da
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_censorship_link
+field_name: field_censorship_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

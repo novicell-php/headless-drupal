@@ -1,0 +1,59 @@
+uuid: 3bc984d5-73ff-4844-956d-a3ef9246c274
+langcode: da
+status: true
+dependencies:
+  config:
+    - image.style.isg_image_scale_1132
+    - image.style.isg_image_scale_1159
+    - image.style.isg_image_scale_1358
+    - image.style.isg_image_scale_392
+    - image.style.isg_image_scale_679
+    - image.style.isg_image_scale_784
+    - image.style.isg_image_scale_903
+  module:
+    - premium_headless_helper
+id: isg_image_dynamic_width_100
+label: 'Image Dynamic - Width 100%'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_image_scale_392
+    breakpoint_id: premium_headless_helper.xxs
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_image_scale_784
+    breakpoint_id: premium_headless_helper.xxs
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_image_scale_679
+    breakpoint_id: premium_headless_helper.xs
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_image_scale_1358
+    breakpoint_id: premium_headless_helper.xs
+    multiplier: 2x
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_image_scale_903
+    breakpoint_id: premium_headless_helper.sm
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_image_scale_1159
+    breakpoint_id: premium_headless_helper.md
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_image_scale_1132
+    breakpoint_id: premium_headless_helper.lg
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: isg_image_scale_1132
+    breakpoint_id: premium_headless_helper.xl
+    multiplier: 1x
+breakpoint_group: premium_headless_helper
+fallback_image_style: isg_image_scale_1132

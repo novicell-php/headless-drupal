@@ -1,0 +1,57 @@
+uuid: 1ff060a7-4da4-46d5-9320-2319568e99f2
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.inline_hero.field_background
+    - field.field.paragraph.inline_hero.field_cta
+    - field.field.paragraph.inline_hero.field_overlay
+    - field.field.paragraph.inline_hero.field_text
+    - field.field.paragraph.inline_hero.field_text_color
+    - field.field.paragraph.inline_hero.field_text_position
+    - field.field.paragraph.inline_hero.field_title
+    - paragraphs.paragraphs_type.inline_hero
+  module:
+    - styles
+    - text
+_core:
+  default_config_hash: T8NL_mLHSHPsGPoO-kjs6FswwHZqIpxIp4SSnqA63hA
+id: paragraph.inline_hero.default
+targetEntityType: paragraph
+bundle: inline_hero
+mode: default
+content:
+  field_background:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: backend_teaser
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_cta:
+    type: styles_link_target
+    label: hidden
+    settings:
+      trim_length: '80'
+      url_only: ''
+      url_plain: ''
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_overlay: true
+  field_text_color: true
+  field_text_position: true
+  field_title: true
+  search_api_excerpt: true

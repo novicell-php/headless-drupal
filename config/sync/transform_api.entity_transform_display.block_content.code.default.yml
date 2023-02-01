@@ -1,0 +1,20 @@
+uuid: 754479d4-af48-46c9-b74a-50c3032e1817
+langcode: da
+status: true
+dependencies:
+  config:
+    - block_content.type.code
+    - field.field.block_content.code.field_code_content
+id: block_content.code.default
+targetEntityType: block_content
+bundle: code
+mode: default
+content:
+  field_code_content:
+    type: value
+    weight: '0'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

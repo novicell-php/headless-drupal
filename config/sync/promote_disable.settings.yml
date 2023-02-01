@@ -1,0 +1,17 @@
+_core:
+  default_config_hash: u8dG1itzYDGoaU-fpFUIzKzEpB-bE8gqm2VfROtuwjc
+promote_disable_node_types:
+  article: article
+  movie: movie
+  person: person
+  restricted: restricted
+  series: series
+  page: page
+promote_disable_sticky_node_types:
+  article: article
+  movie: movie
+  person: person
+  restricted: restricted
+  series: series
+  page: page
+langcode: da

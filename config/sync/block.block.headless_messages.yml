@@ -1,0 +1,22 @@
+uuid: 5c5465bd-18ba-4609-b686-833129641d56
+langcode: da
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - headless
+_core:
+  default_config_hash: YqKTtloWJ8FjLtfVNfrHaK6kVgxT67lC1cJ3j6i6WLo
+id: headless_messages
+theme: headless
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Statusmeddelelser
+  label_display: '0'
+  provider: system
+visibility: {  }

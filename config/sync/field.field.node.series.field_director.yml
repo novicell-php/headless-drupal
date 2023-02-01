@@ -1,0 +1,28 @@
+uuid: 9d2e65ff-de75-4e5a-96e0-c98a818c21e6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_director
+    - node.type.series
+    - node.type.person
+id: node.series.field_director
+field_name: field_director
+entity_type: node
+bundle: series
+label: Director
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      person: person
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

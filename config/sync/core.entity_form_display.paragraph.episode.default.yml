@@ -1,0 +1,40 @@
+uuid: eb09989e-76e7-4e70-bf50-c187731267cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.episode.field_air_date
+    - field.field.paragraph.episode.field_episode_header
+    - field.field.paragraph.episode.field_episode_number
+    - paragraphs.paragraphs_type.episode
+  module:
+    - datetime
+id: paragraph.episode.default
+targetEntityType: paragraph
+bundle: episode
+mode: default
+content:
+  field_air_date:
+    type: datetime_default
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_episode_header:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_episode_number:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

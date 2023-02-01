@@ -1,0 +1,14 @@
+uuid: 4bc10c72-fa3b-4570-bb46-ba5bc022d3e8
+langcode: da
+status: true
+dependencies:
+  config:
+    - user.role.monitor
+  module:
+    - user
+id: user_add_role_action.monitor
+label: 'Add the Monitor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: monitor

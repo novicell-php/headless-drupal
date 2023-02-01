@@ -1,0 +1,18 @@
+uuid: 0f1e6c1d-2908-4f9f-922b-365d66e094a3
+langcode: da
+status: true
+dependencies:
+  module:
+    - focal_point
+name: backend_teaser
+label: 'Backend Teaser'
+effects:
+  5e2e9884-706a-4857-a951-488f147b055b:
+    uuid: 5e2e9884-706a-4857-a951-488f147b055b
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 180
+      crop_type: focal_point
+pipeline: __default__

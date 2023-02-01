@@ -1,0 +1,21 @@
+uuid: 6cd1c5fe-a8b8-4c36-9423-169673d04598
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_color_theme
+    - paragraphs.paragraphs_type.basic_hero
+  module:
+    - styles
+id: paragraph.basic_hero.field_color_theme
+field_name: field_color_theme
+entity_type: paragraph
+bundle: basic_hero
+label: 'Farve tema'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: styles

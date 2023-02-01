@@ -1,0 +1,29 @@
+uuid: bf23cd7b-afcb-4d79-a7d5-0fe38172ef0f
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list_media
+    - media.type.image
+    - node.type.movie
+id: node.movie.field_list_media
+field_name: field_list_media
+entity_type: node
+bundle: movie
+label: 'Liste media'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

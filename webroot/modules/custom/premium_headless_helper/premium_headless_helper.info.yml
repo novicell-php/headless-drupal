@@ -1,0 +1,8 @@
+name: Premium Headless Helper
+description: Premium headless helper
+package: Drupal Premium
+type: module
+core_version_requirement: ^8 || ^9
+
+dependencies:
+  - premium_core:premium_core

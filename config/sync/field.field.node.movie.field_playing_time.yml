@@ -1,0 +1,23 @@
+uuid: ac7018be-2e8d-441e-b65a-d302aa56010f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_playing_time
+    - node.type.movie
+id: node.movie.field_playing_time
+field_name: field_playing_time
+entity_type: node
+bundle: movie
+label: Spilletid
+description: 'Målt i minutter.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: min.
+field_type: integer

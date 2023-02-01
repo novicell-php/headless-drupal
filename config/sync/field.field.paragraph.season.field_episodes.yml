@@ -1,0 +1,43 @@
+uuid: 0289afb2-770a-4aa5-b212-49884570087c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_episodes
+    - paragraphs.paragraphs_type.episode
+    - paragraphs.paragraphs_type.season
+  module:
+    - entity_reference_revisions
+id: paragraph.season.field_episodes
+field_name: field_episodes
+entity_type: paragraph
+bundle: season
+label: Episodes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      episode: episode
+    negate: 0
+    target_bundles_drag_drop:
+      accordion_item:
+        weight: 6
+        enabled: false
+      episode:
+        weight: 7
+        enabled: true
+      season:
+        weight: 8
+        enabled: false
+      streaming_providers:
+        weight: 9
+        enabled: false
+      usp_item:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

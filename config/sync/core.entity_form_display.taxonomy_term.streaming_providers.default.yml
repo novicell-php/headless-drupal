@@ -1,0 +1,68 @@
+uuid: 0c152f9e-d02c-4b03-8008-5257c21b8b81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.streaming_providers.field_enable_streaming_provider
+    - field.field.taxonomy_term.streaming_providers.field_streaming_provider_logo
+    - taxonomy.vocabulary.streaming_providers
+  module:
+    - media_library
+    - path
+    - text
+id: taxonomy_term.streaming_providers.default
+targetEntityType: taxonomy_term
+bundle: streaming_providers
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_enable_streaming_provider:
+    type: boolean_checkbox
+    weight: 2
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_streaming_provider_logo:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 4
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 6
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden: {  }

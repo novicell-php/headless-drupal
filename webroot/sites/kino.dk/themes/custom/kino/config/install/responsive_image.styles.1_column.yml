@@ -1,0 +1,58 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.1_column_lg_
+    - image.style.1_column_md_
+    - image.style.1_column_sm_
+    - image.style.1_column_xs_
+    - image.style.1_column_xsx2_
+    - image.style.1_column_xxs_
+    - image.style.1_column_xxsx2_
+  theme:
+    - kino
+id: 1_column
+label: '1 column'
+image_style_mappings:
+  -
+    breakpoint_id: kino.xl
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 1_column_lg_
+  -
+    breakpoint_id: kino.lg
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 1_column_lg_
+  -
+    breakpoint_id: kino.md
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 1_column_md_
+  -
+    breakpoint_id: kino.sm
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 1_column_sm_
+  -
+    breakpoint_id: kino.xs
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 1_column_xs_
+  -
+    breakpoint_id: kino.xs
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: 1_column_xsx2_
+  -
+    breakpoint_id: kino.xxs
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: 1_column_xxs_
+  -
+    breakpoint_id: kino.xxs
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: 1_column_xxsx2_
+breakpoint_group: kino
+fallback_image_style: 1_column_xxs_

@@ -1,0 +1,19 @@
+uuid: 66ed04ac-763f-48a2-9d88-7f927a9d7ce2
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_copyright
+    - media.type.video
+id: media.video.field_copyright
+field_name: field_copyright
+entity_type: media
+bundle: video
+label: Copyright
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

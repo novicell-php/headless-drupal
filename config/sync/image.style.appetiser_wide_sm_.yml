@@ -1,0 +1,20 @@
+uuid: 43996f08-8cf9-4060-8ef6-43e61429e841
+langcode: da
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: SjeiSNN7B9lw91tHUbRNRMpzGICB1DM-oo4SMUWcE4I
+name: appetiser_wide_sm_
+label: 'Appetiser wide (SM)'
+effects:
+  a68033bc-f10b-4773-9163-4f25f1719a7c:
+    uuid: a68033bc-f10b-4773-9163-4f25f1719a7c
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 991
+      height: 558
+      crop_type: focal_point
+pipeline: __default__

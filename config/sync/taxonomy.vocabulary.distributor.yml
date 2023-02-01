@@ -1,0 +1,8 @@
+uuid: fba46853-369e-4164-a4d5-2276296b4e37
+langcode: da
+status: true
+dependencies: {  }
+name: Distributør
+vid: distributor
+description: 'Distributørere af film.'
+weight: 0

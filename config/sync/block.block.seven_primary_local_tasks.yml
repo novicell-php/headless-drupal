@@ -1,0 +1,22 @@
+uuid: b3bc85b2-c668-4380-835c-813efe9e73a7
+langcode: da
+status: true
+dependencies:
+  theme:
+    - seven
+_core:
+  default_config_hash: CyX_aDKAka2_eihevNLscCHDYrzDgIqwWzFVEFRKIww
+id: seven_primary_local_tasks
+theme: seven
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primære faneblade'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

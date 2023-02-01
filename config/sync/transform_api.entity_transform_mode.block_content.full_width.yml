@@ -1,0 +1,10 @@
+uuid: 76ed6651-d0ed-4601-995d-26b1d8f8b056
+langcode: da
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.full_width
+label: 'Full Width'
+targetEntityType: block_content
+cache: true

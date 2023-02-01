@@ -1,0 +1,8 @@
+uuid: 8e357fa5-4bdc-4fda-b8a2-a2f2639f0e20
+langcode: da
+status: true
+dependencies: {  }
+id: article
+label: Article
+revision: 0
+description: 'En impact visning af en enkelt artikel.'

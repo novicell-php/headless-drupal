@@ -1,0 +1,11 @@
+uuid: e10a4c94-e9e3-4239-9aec-853bc851c0b6
+langcode: da
+status: true
+dependencies:
+  config:
+    - image.style.backend_thumbnail
+id: backend_thumbnail
+label: 'Backend Thumbnail'
+image_style_mappings: {  }
+breakpoint_group: responsive_image
+fallback_image_style: backend_thumbnail

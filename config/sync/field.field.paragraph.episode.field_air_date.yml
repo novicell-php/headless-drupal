@@ -1,0 +1,21 @@
+uuid: fd21c24d-2fb0-4fbb-8012-b31d6be78aff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_air_date
+    - paragraphs.paragraphs_type.episode
+  module:
+    - datetime
+id: paragraph.episode.field_air_date
+field_name: field_air_date
+entity_type: paragraph
+bundle: episode
+label: 'Air date'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

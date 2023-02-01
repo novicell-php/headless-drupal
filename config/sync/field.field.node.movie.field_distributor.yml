@@ -1,0 +1,29 @@
+uuid: c23db58c-aaf1-430d-b2ba-a59f7a7b4169
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_distributor
+    - node.type.movie
+    - taxonomy.vocabulary.distributor
+id: node.movie.field_distributor
+field_name: field_distributor
+entity_type: node
+bundle: movie
+label: Distributør
+description: 'Distributøren af filmen.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      distributor: distributor
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

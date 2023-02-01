@@ -1,0 +1,23 @@
+uuid: b9c35b5c-6e9d-474e-ab82-fce696f3b909
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_enable_streaming_provider
+    - taxonomy.vocabulary.streaming_providers
+id: taxonomy_term.streaming_providers.field_enable_streaming_provider
+field_name: field_enable_streaming_provider
+entity_type: taxonomy_term
+bundle: streaming_providers
+label: Enable
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

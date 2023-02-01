@@ -1,0 +1,10 @@
+uuid: d1604029-1975-494f-b8a1-033a2565995d
+langcode: da
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BCM-vV1zzRaLHN18dqAR_CuGOj8AFJvTx7BKl_8Gcxc
+id: tools
+label: Værktøjer
+description: 'Bruger værktøjslinks, som typisk tilføjes af moduler'
+locked: true

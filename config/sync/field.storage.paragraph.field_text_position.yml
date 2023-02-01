@@ -1,0 +1,20 @@
+uuid: 99120cb2-7c4a-40b5-85af-7ecdbcd97219
+langcode: da
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - styles
+id: paragraph.field_text_position
+field_name: field_text_position
+entity_type: paragraph
+type: styles
+settings:
+  collection: hero_text_align
+module: styles
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

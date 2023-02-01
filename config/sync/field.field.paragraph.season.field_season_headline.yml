@@ -1,0 +1,19 @@
+uuid: 2126911a-36cb-4cb2-8d82-328535064cc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_season_headline
+    - paragraphs.paragraphs_type.season
+id: paragraph.season.field_season_headline
+field_name: field_season_headline
+entity_type: paragraph
+bundle: season
+label: Headline
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

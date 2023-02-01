@@ -1,0 +1,22 @@
+uuid: 91416776-5284-454c-8304-3f7150718a49
+langcode: da
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - headless
+_core:
+  default_config_hash: 8by5KRsb7ZpmjHj0ms1d7xAG_xH54AWsOX6spDLJ59U
+id: headless_breadcrumbs
+theme: headless
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Brødkrummer
+  label_display: '0'
+  provider: system
+visibility: {  }

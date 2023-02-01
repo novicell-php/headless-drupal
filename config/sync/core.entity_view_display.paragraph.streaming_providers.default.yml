@@ -1,0 +1,37 @@
+uuid: cae79941-3b9e-4634-b802-c8a6e04b39ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.streaming_providers.field_provider
+    - field.field.paragraph.streaming_providers.field_provider_link
+    - paragraphs.paragraphs_type.streaming_providers
+  module:
+    - link
+id: paragraph.streaming_providers.default
+targetEntityType: paragraph
+bundle: streaming_providers
+mode: default
+content:
+  field_provider:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_provider_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true

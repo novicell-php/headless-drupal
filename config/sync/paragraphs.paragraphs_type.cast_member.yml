@@ -1,0 +1,10 @@
+uuid: 3b4247d0-b3d8-4cc8-8daf-2c7f2b132847
+langcode: da
+status: true
+dependencies: {  }
+id: cast_member
+label: Medvirkende
+icon_uuid: null
+icon_default: null
+description: 'Beskriver en medvirkende og vedkommendes rolle.'
+behavior_plugins: {  }

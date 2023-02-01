@@ -1,0 +1,23 @@
+uuid: eb88f096-910f-4466-ad5b-c4b13ccda98e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kino_rating_count
+    - node.type.movie
+id: node.movie.field_kino_rating_count
+field_name: field_kino_rating_count
+entity_type: node
+bundle: movie
+label: 'Kino rating stemmer'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

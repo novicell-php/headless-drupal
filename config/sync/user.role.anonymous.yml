@@ -1,0 +1,24 @@
+uuid: 36d0547c-a7af-4c61-a9b0-f08cb0fd3d09
+langcode: da
+status: true
+dependencies:
+  module:
+    - comment
+    - media
+    - search_api_page
+    - system
+_core:
+  default_config_hash: zClYBrQKb6sXAQHIkzrZXr1kopmPtULRPjAqGw0qVSk
+id: anonymous
+label: 'Anonym bruger'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format restricted_html'
+  - 'view media'
+  - 'view search api pages'

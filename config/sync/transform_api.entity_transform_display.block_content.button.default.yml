@@ -1,0 +1,30 @@
+uuid: f9111b4e-7f59-439e-ba47-9d393f361f72
+langcode: da
+status: true
+dependencies:
+  config:
+    - block_content.type.button
+    - field.field.block_content.button.field_button
+    - field.field.block_content.button.field_button_alignment
+  module:
+    - styles
+id: block_content.button.default
+targetEntityType: block_content
+bundle: button
+mode: default
+content:
+  field_button:
+    type: styled_link
+    weight: '1'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+  field_button_alignment:
+    type: value
+    weight: '0'
+    region: content
+    label: omit
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

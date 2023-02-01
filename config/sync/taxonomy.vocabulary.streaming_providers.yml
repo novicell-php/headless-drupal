@@ -1,0 +1,8 @@
+uuid: 40b9345a-20c1-494d-a624-668596a5e670
+langcode: en
+status: true
+dependencies: {  }
+name: 'Streaming providers'
+vid: streaming_providers
+description: ''
+weight: 0

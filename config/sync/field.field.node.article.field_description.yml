@@ -1,0 +1,21 @@
+uuid: 7e78ffd9-4b07-44ab-9578-4b5c387cd66f
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.article
+_core:
+  default_config_hash: OeC6SC8lNDIdHV0Uv7lF6Us-ss0s8cJLptRoRwFnTgY
+id: node.article.field_description
+field_name: field_description
+entity_type: node
+bundle: article
+label: Beskrivelse
+description: 'Beskrivelsen er brugt til meta tags, søgeresultater og inline navigation'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

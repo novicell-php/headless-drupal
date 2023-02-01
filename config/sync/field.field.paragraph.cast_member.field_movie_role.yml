@@ -1,0 +1,29 @@
+uuid: 4fb45c77-5cc7-4957-956f-6747bb2e92b9
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_movie_role
+    - paragraphs.paragraphs_type.cast_member
+    - taxonomy.vocabulary.movie_role
+id: paragraph.cast_member.field_movie_role
+field_name: field_movie_role
+entity_type: paragraph
+bundle: cast_member
+label: Rolle
+description: 'Hvilken rolle de medvirkende havde i filmen.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      movie_role: movie_role
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

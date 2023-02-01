@@ -1,0 +1,29 @@
+uuid: 7228e899-d8e1-4ee9-b18d-cc9ff52b8014
+langcode: da
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: b5ITQG6lJhfBmjjBXGwkxXF2O1OkLg0ROBE-1XBsIws
+id: paragraph.field_text_color
+field_name: field_text_color
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: light
+      label: Lyst
+    -
+      value: dark
+      label: Mørk
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

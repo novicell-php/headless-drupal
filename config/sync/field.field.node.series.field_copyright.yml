@@ -1,0 +1,19 @@
+uuid: 077cd606-7f32-4622-9d0e-cd5fae3c4ae4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_copyright
+    - node.type.series
+id: node.series.field_copyright
+field_name: field_copyright
+entity_type: node
+bundle: series
+label: 'Foto copyright'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 987c2b80-a535-40c5-a056-b70f07a44615
+langcode: da
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - headless
+_core:
+  default_config_hash: 862sIulDdHmF0vBU1s2j2_a_CwkxursrL0pIrMDzzOg
+id: headless_login
+theme: headless
+region: content
+weight: 10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'Log ind'
+  label_display: visible
+  provider: user
+visibility: {  }

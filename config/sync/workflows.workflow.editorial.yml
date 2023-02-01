@@ -1,0 +1,75 @@
+uuid: 3abe5e9b-2721-4000-b9e4-1ba168a4bea4
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.movie
+    - node.type.page
+    - node.type.person
+    - node.type.series
+  module:
+    - content_moderation
+_core:
+  default_config_hash: S15d9uky9v-NcZ8f-mLyK9BwEd4XAbyd7YvqceCbgDM
+id: editorial
+label: 'Redaktionelt arbejdsflow'
+type: content_moderation
+type_settings:
+  states:
+    archived:
+      label: Arkiveret
+      weight: 5
+      published: false
+      default_revision: true
+    draft:
+      label: Kladde
+      weight: -5
+      published: false
+      default_revision: false
+    published:
+      label: Udgivet
+      weight: 0
+      published: true
+      default_revision: true
+  transitions:
+    archive:
+      label: Arkiver
+      from:
+        - published
+      to: archived
+      weight: 2
+    archived_draft:
+      label: 'Gendan til Kladde'
+      from:
+        - archived
+      to: draft
+      weight: 3
+    archived_published:
+      label: Gendan
+      from:
+        - archived
+      to: published
+      weight: 4
+    create_new_draft:
+      label: 'Opret Ny Kladde'
+      from:
+        - draft
+        - published
+      to: draft
+      weight: 0
+    publish:
+      label: Udgiv
+      from:
+        - draft
+        - published
+      to: published
+      weight: 1
+  entity_types:
+    node:
+      - article
+      - movie
+      - page
+      - person
+      - series
+  default_moderation_state: draft

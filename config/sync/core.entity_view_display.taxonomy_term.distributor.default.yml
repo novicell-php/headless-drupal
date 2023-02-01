@@ -1,0 +1,32 @@
+uuid: 00256cd8-b1d0-4e5d-ab27-d1ad533272a9
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.distributor.field_copyright
+    - taxonomy.vocabulary.distributor
+  module:
+    - text
+id: taxonomy_term.distributor.default
+targetEntityType: taxonomy_term
+bundle: distributor
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_copyright:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

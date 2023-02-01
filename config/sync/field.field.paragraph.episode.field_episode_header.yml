@@ -1,0 +1,19 @@
+uuid: fad248c0-fc73-4303-bb9a-4823bd3099a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_episode_header
+    - paragraphs.paragraphs_type.episode
+id: paragraph.episode.field_episode_header
+field_name: field_episode_header
+entity_type: paragraph
+bundle: episode
+label: Header
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
